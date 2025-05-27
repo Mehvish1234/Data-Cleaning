@@ -36,3 +36,30 @@ You can download the dataset from: [Titanic Dataset](https://www.kaggle.com/comp
 ```python
 df['Age'] = df['Age'].fillna(df['Age'].mean())
 df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])
+
+**
+ Day 2: Exploratory Data Analysis (EDA)**
+✅ Objective:
+Understand the dataset using statistics and visualizations.
+
+📊 Tools Used:
+Pandas for data manipulation
+
+Matplotlib & Seaborn for visualization
+
+Plotly for interactive plots (optional)
+
+🔍 Key Steps:
+Generated summary statistics using df.describe() and df.info().
+
+Visualized distributions using:
+
+Histograms
+
+Boxplots
+
+Analyzed relationships using:
+
+Pairplot
+
+Correlation matrix
