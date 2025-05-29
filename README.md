@@ -1,4 +1,5 @@
 # Data-Cleaning
+DAY 1
 #  Data Cleaning & Preprocessing for Machine Learning
 
 This project demonstrates the essential steps to clean and prepare raw data for Machine Learning using the Titanic dataset.
@@ -39,6 +40,8 @@ df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])
 
 **
  Day 2: Exploratory Data Analysis (EDA)**
+
+
 ✅ Objective:
 Understand the dataset using statistics and visualizations.
 
@@ -63,3 +66,16 @@ Analyzed relationships using:
 Pairplot
 
 Correlation matrix
+
+
+DAY 3 : 
+house-price-prediction/
+├── housing_data.csv             # (your dataset)
+├── housing_regression.ipynb     # your Google Colab or Jupyter notebook
+├── README.md                    # project documentation
+├── requirements.txt             # required Python packages (optional but recommended)
+└── .gitignore                   # to ignore unnecessary files (optional)
+Housing Price Prediction using Multiple Linear Regression
+This project uses Multiple Linear Regression to predict house prices based on various features such as area, bedrooms, bathrooms, furnishing status, and more.
+
+
