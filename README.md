@@ -127,4 +127,50 @@ for feature, coef in zip(X.columns, model.coef_):
     print(f"{feature}: {coef}")
 
 
+📅 Day 5: Decision Trees and Random Forests
+🎯 Objective
+Learn and implement tree-based machine learning models for classification and regression, focusing on understanding decision trees and ensemble methods like random forests.
 
+🛠 Tools & Libraries
+Scikit-learn: For building and evaluating tree models
+
+Graphviz: For visualizing decision trees
+
+Pandas, NumPy, Matplotlib: For data handling and visualization
+
+🧠 What I Learned
+How to train a Decision Tree Classifier and visualize its structure
+
+The impact of overfitting and how to control it using tree depth
+
+How Random Forest improves performance using ensemble learning
+
+Techniques to evaluate models using cross-validation
+
+Interpreting feature importances to understand model decisions
+
+🧩 Dataset Used
+Heart Disease Dataset (sourced from Kaggle)
+This dataset includes various health-related features used to predict the presence or absence of heart disease in a patient.
+
+🔍 Workflow Summary
+Data loading and preprocessing
+
+Training and visualizing a Decision Tree
+
+Depth tuning to avoid overfitting
+
+Comparing performance with Random Forest
+
+Evaluating models using cross-validation
+
+Interpreting important features affecting predictions
+
+📌 Key Takeaways
+Decision trees are easy to interpret but prone to overfitting
+
+Random forests reduce variance and improve generalization
+
+Visualization and feature importance help in model explainability
+
+Cross-validation provides a more reliable performance metric
