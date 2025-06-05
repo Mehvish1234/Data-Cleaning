@@ -169,6 +169,48 @@ Interpreting important features affecting predictions
 📌 Key Takeaways
 Decision trees are easy to interpret but prone to overfitting
 
+📅 DAY 7:Breast Cancer Detection with SVM
+
+
+This project uses Support Vector Machines (SVM) to classify breast tumors as malignant or benign based on the Breast Cancer Wisconsin (Diagnostic) Dataset from Kaggle.
+
+📊 Dataset
+Source: Kaggle - UCI Breast Cancer Dataset
+
+Features: 30 numeric measurements
+
+Target: diagnosis (M = Malignant, B = Benign)
+
+🎯 Objectives
+Preprocess the dataset
+
+Train SVM models (Linear and RBF kernels)
+
+Visualize decision boundaries using PCA
+
+Tune hyperparameters with GridSearchCV
+
+🛠 Requirements
+Python 3.7+
+
+pandas, numpy, matplotlib, scikit-learn
+
+🚀 Steps to Run
+Download data.csv from Kaggle
+
+Place it in the project folder
+
+Run the Python or Jupyter script
+
+View accuracy, decision boundaries, and tuned parameters
+
+🙌 Credits
+UCI Machine Learning Repository
+
+Kaggle Community
+
+scikit-learn library
+
 Random forests reduce variance and improve generalization
 
 Visualization and feature importance help in model explainability
