@@ -216,3 +216,43 @@ Random forests reduce variance and improve generalization
 Visualization and feature importance help in model explainability
 
 Cross-validation provides a more reliable performance metric
+
+📅 DAY 8: Clustering with K-Means
+
+## 📌 Internship Task - AI & ML Internship by Elevate Labs
+
+### 🎯 Objective
+Perform unsupervised learning using the K-Means clustering algorithm on a real-world dataset to identify meaningful clusters.
+
+---
+
+### 🧰 Tools & Libraries Used
+- **Python 3**
+- **Pandas**
+- **Matplotlib**
+- **Scikit-learn**
+- **StandardScaler (Preprocessing)**
+- **PCA (for visualization)**
+- **KMeans Clustering**
+- **Silhouette Score (Evaluation)**
+
+---
+
+### 📊 Dataset Used
+Mall Customer Segmentation Dataset  
+- Features: Age, Annual Income, Spending Score, etc.
+- Source: Provided in task PDF
+
+---
+
+### 🧠 Learning Outcomes
+- Understanding the basics of **unsupervised learning**
+- Implementing **K-Means clustering**
+- Determining the optimal number of clusters using the **Elbow Method**
+- Evaluating clustering performance with **Silhouette Score**
+- Visualizing clusters in 2D using **PCA**
+
+
+
+
+
